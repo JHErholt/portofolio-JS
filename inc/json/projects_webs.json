@@ -1,7 +1,15 @@
 {
     "website": [
 
-
+        {
+            "title": "SCENERY",
+            "textDa": "Jeg har lavet en hjemmeside, hvor jeg viser en masser billeder jeg har taget på gåture, der er brugt HTML og CSS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website, where you can see lots of pictures I've taken on walks, I've used HTML and CSS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://jerholt-imagery-scenery.netlify.app/",
+            "img": "/assets/websites/scenery.jpg"
+        },
         
         {
             "title": "ERHOLT SEARCH",
@@ -12,15 +20,7 @@
             "url": "https://erholt-search.netlify.app/",
             "img": "/assets/websites/ErholtSearch.jpg"
         },
-                {
-            "title": "SCENERY",
-            "textDa": "Jeg har lavet en hjemmeside, hvor jeg viser en masser billeder jeg har taget på gåture, der er brugt HTML og CSS.",
-            "opensDa": "Åbnes i ny fane",
-            "textEng": "I have created a website, where you can see lots of pictures I've taken on walks, I've used HTML and CSS.",
-            "opensEng": "Opens in new tab",
-            "url": "https://jerholt-imagery-scenery.netlify.app/",
-            "img": "/assets/websites/scenery.jpg"
-        },
+
         {
             "title": "JULE SIDE",
             "textDa": "Jeg har lavet en hjemmeside, hvor man kan se hvor mange dage, timer og minutter der er til jul, med hjælp af HTML, CSS og JS.",
