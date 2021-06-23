@@ -1,3 +1,4 @@
 # portofolio
-LINK TO PORTFOLIO VIA NETLIFY
+link to portofolio via netlify
+
 https://portfolio-jacob-erholt.netlify.app/
