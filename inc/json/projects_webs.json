@@ -1,0 +1,95 @@
+{
+    "website": [
+
+        {
+            "title": "SCENERY",
+            "textDa": "Jeg har lavet en hjemmeside, hvor jeg viser en masser billeder jeg har taget på gåture, der er brugt HTML og CSS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website, where you can see lots of pictures I've taken on walks, I've used HTML and CSS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://jerholt-imagery-scenery.netlify.app/",
+            "img": "/assets/websites/scenery.jpg"
+        },
+        
+        {
+            "title": "ERHOLT SEARCH",
+            "textDa": "Jeg har lavet en hjemmeside, hvor man kan søge på engelske wikipedia sider, med hjælp fra en API, med hjælp af HTML, CSS og JS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website, where you can see search after wikipedia sites, I've used help from an API to do so, I've used HTML, CSS and JS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://erholt-search.netlify.app/",
+            "img": "/assets/websites/ErholtSearch.jpg"
+        },
+        {
+            "title": "JULE SIDE",
+            "textDa": "Jeg har lavet en hjemmeside, hvor man kan se hvor mange dage, timer og minutter der er til jul, med hjælp af HTML, CSS og JS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website, where you can see how long there is till christmas, using HTML, CSS og JS",
+            "opensEng": "Opens in new tab",
+            "url": "https://christmas-erholt.netlify.app/",
+            "img": "/assets/websites/juleside.jpg"
+        },
+        
+        
+        {
+            "title": "B0BLES",
+            "textDa": "Jeg har lavet en hjemmeside til min eksammen på grundforløb 2, med hjælp af HTML og css + 3D modeller.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website as my exam in basic course 2 using HTML, CSS and 3D models.",
+            "opensEng": "Opens in new tab",
+            "url": "https://b0bles-jerholt.netlify.app/",
+            "img": "/assets/websites/b0bbles.jpg"
+        },
+        
+        {
+            "title": "TRIANGLE RULERS",
+            "textDa": "Jeg har lavet en webshop, som skoleprojekt imens jeg gik på grundforløb 2, med hjælp af HTML og CSS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have made a webshop, as a school project, while I was in basic course 2, using HTML and CSS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://trio-kajace.netlify.app/",
+            "img": "/assets/websites/triangle.jpg"
+        },
+        
+        {
+            "title": "GAMELAB",
+            "textDa": "Jeg har lavet en hjemmeside for at vise nogle af mine yndlingsspil, med hjælp af HTML, CSS OG JS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website, so i could show some of my favourite games, using HTML, CSS and JS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://gamelab-jerholt.netlify.com",
+            "img": "/assets/websites/gaamelab.jpg"
+        },
+        
+        {
+            "title": "PROJEKT LEGO",
+            "textDa": "Jeg har lavet en hjemmeside for at vise procesesen af mit lego projekt, den er lavet med HTML og CSS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website as a form of showing my procces in my lego project, using HTML and CSS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://lego-opsamling-jerholt.netlify.app/",
+            "img": "/assets/websites/legoopsams.jpg"
+        },
+        
+        {
+            "title": "GREENGARDEN",
+            "textDa": "Jeg skulle lave en webshop, som et skoleprodukt, jeg har brugt HTML, CSS og JS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I had to make a website as a school project, I used HTML, CSS and JS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://greengarden-jerholt.netlify.app/",
+            "img": "/assets/websites/greengards.jpg"
+        },
+        
+        {
+            "title": "PROJEKT DYR",
+            "textDa": "Jeg skulle lave en hjemmeside om nogle dyr, som et skoleprodukt, jeg har brugt HTML, CSS og JS.",
+            "opensDa": "Åbnes i ny fane",
+            "textEng": "I have created a website about som selected animals, as a school project, using HTML, CSS and JS.",
+            "opensEng": "Opens in new tab",
+            "url": "https://dyr-info-jerholt.netlify.com",
+            "img": "/assets/websites/Projektdyr.jpg"
+        }
+        
+    ]
+}

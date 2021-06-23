@@ -1,0 +1,48 @@
+{
+    "illustrations": [
+        {
+            "title": "Lego",
+            "textDa": "Jeg har lavet en legomand i Blender.",
+            "textEng": "I have created a lego figurine, with different moods, using Blender.",
+            "imgSize": "img-33",
+            "img": [
+                "/assets/3D/Lego1.png",
+                "/assets/3D/Lego2.png",
+                "/assets/3D/Lego3.png",
+                "/assets/3D/Lego4.png",
+                "/assets/3D/Lego5.png",
+                "/assets/3D/Lego6.png"
+            ]
+        },
+        {
+            "title": "3D City",
+            "textDa": "Jeg har lavet en 3D by i Illustrator, efter at have tegnet med blyant på isometrisk papir",
+            "textEng": "I have made a 3D city using Illustrator, after drawing with pencil on isometric paper.",
+            "imgSize": "",
+            "img": [
+                "/assets/3D/3D.png"
+            ]
+        },
+        {
+            "title": "Fork",
+            "textDa": "Jeg har lavet en gaffel i programmet Maya, vi skulle lave formen, lyset og underpladen.",
+            "textEng": "I have made a fork in Maya, we had to make the shape, lighting and the plate.",
+            "imgSize": "",
+            "img": [
+                "/assets/3D/gaffel.jpg"
+            ]
+        },
+        {
+            "title": "B0bles",
+            "textDa": "Jeg har lavet nogle møbler i blender, de skulle have 2 farver skema.",
+            "textEng": "I have created some furniture using blender, they have 2 color schemes.",
+            "imgSize": "img-40",
+            "img": [
+                "/assets/3D/tegneBord1.png",
+                "/assets/3D/wipeoutStol1.png",
+                "/assets/3D/wipeoutStol2.png",
+                "/assets/3D/tegneBord2.png"
+            ]
+        }
+    ]
+}

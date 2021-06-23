@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Jacob Erholt's portfolio</title>
+
+    <!-- Stylesheets -->
+
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="inc/css/style.css">
+
+    <!--------------- 
+        <<< Footer ikoner, er fra FontAwesome >>> 
+    Link:    https://fontawesome.com/
+    ---------------->
+    <script src="https://kit.fontawesome.com/e63c2db5f3.js" crossorigin="anonymous"></script>
+
+    <!-- Logo / Favicon -->
+
+    <link rel="Icon" href="logo1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="pwa-assets/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="pwa-assets/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="pwa-assets/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="pwa-assets/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="pwa-assets/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="pwa-assets/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="pwa-assets/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="pwa-assets/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="pwa-assets/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="pwa-assets/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="pwa-assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="pwa-assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pwa-assets/favicon-16x16.png">
+    <link rel="manifest" href="pwa-assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="pwa-assets/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('inc/js/service-worker.js');
+        });
+    </script>
+</head>
+<!-- <<< Start of code >>> -->
+
+<body>
+    <div id="language" class="danish"></div>
+    <div id="site" class="index"></div>
+    <div id="lbProject" class="notActive"></div>
+    <div id="lbArchive" class="notActive"></div>
+    <div id="0"></div>
+    <header>
+        <div id="header-wrapper"></div>
+    </header>
+    <main id="main" class="index__main index__da"></main>
+    <footer>
+        <div id="footer-wrapper"></div>
+    </footer>
+</body>
+<script src="/inc/js/script.js"></script>
+
+</html>

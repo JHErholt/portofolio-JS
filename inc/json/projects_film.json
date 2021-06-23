@@ -1,0 +1,17 @@
+{
+    "film": [
+        {
+            "title": "GO HOLLYWOOD PROJECT",
+            "textDa": "Vi skulle lave en film og under projektet. Vi valgte at vores film skulle handle om en mikrobølgeovn",
+            "textEng": "We had to make a trailer, my group and I chose to make a horror movie about a mircowave.",
+            "src": "https://youtube.com/embed/s5ntoQIQmT0"
+        },
+        {
+            "title": "Lego animation",
+            "textDa": "Jeg havde til opgave at lave en animation, så jeg lavede en legomand der er på tur i skoven. Projektet er lavet i Blender.",
+            "textEng": "I have created an animation, so I made a lego figurine taking a walk in the forest. The project is made using Blender.",
+            "src": "https://www.youtube.com/embed/r3PWArQUI7s"
+        }
+    ]
+}
+

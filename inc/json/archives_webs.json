@@ -1,0 +1,23 @@
+{
+    "website": [
+        
+        {
+            "title": "BYLIVSLAB",
+            "textDa": "Jeg skulle lave en hjemmeside, om bylivslab til min eksammen på grundforløb 1, jeg har brugt HTML, CSS OG JS. ",
+            "textEng": "I had to make a website, about 'bylivslab' as my exam in basic course 1, using HTML, CSS and JS. ",
+            "opensDa": "Åbnes i ny fane",
+            "opensEng": "Opens in new tab",
+            "url": "https://bylivslab-jerholt.netlify.app/",
+            "img": "/assets/websites/bylivslabs.jpg"
+        },
+        {
+            "title": "CAFE EMIL",
+            "textDa": "Jeg skulle lave en hjemmeside til min termins prøve på grundforløb 1, jeg har brugt HTML og CSS. ",
+            "textEng": "I had to make a website, as my mock exam in basic course 1, I used HTML and CSS. ",
+            "opensDa": "Åbnes i ny fane",
+            "opensEng": "Opens in new tab",
+            "url": "https://cafeemil-jerholt.netlify.app/",
+            "img": "/assets/websites/cafe-A-burger-3.jpg"
+        }
+    ]
+}

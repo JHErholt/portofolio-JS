@@ -1,0 +1,474 @@
+/* 1-----------------------------
+    <<Basic info>>
+
+Author: Jacob Erholt
+Reason for website: It's a portofolio
+Created: 14/10/2019
+Last Modified: 19/05/2021
+Last Sorted: 19/05/2021
+Languages (Code wise): HTML, CSS, JS, JSON (looking for more in the future)
+Languages (Non code): Danish and English
+Author links:
+    Facebook: https://www.facebook.com/profile.php?id=100009581239174
+    Youtube: https://www.youtube.com/channel/UCFmKt6u9UHF-oQO0mfpj_Tw/featured
+    LinkedIn: http://linkedin.com/in/jacob-erholt-b33b74193
+    Mail: jacob@erholt.dk
+
+    <<Fun facts>>
+
+Number of rehauls (Completely new design): 4  
+Number of times (re)uploaded: Manyyy times, atleast 154
+Number of blueprints, mockups, brainstorms etc: 2
+Number of logo designs: 2
+
+////////////////////////////////
+/////// Website CSS //////////// 
+////////////////////////////////
+--------------------------------
+<<< TABLE OF CONTENT
+--------------------------------
+1 Resets
+2 Colors
+    2.1 Common
+    2.1.1 Lightbox
+    2.2 Header
+    2.3 Footer
+    2.5 Projects / Projekter
+3 Fonts
+4 Quality of life
+    4.1 Anchor
+    4.2 Lightbox
+5 Classes
+    5.1 Common
+    5.2 About / Om Mig
+    5.3 Tegninger / Drawings
+    5.4 Projects / Projekter
+6 Header
+7 Main
+    7.1 About / Om mig
+    7.2 Projekter__Websites
+    7.3 Pictures
+    7.4 SiteHeader
+8 Footer
+9 Media queries
+    9.1 Min-width__650
+        9.1.1 Header
+        9.1.2 Main
+    9.2 Min-width__850
+        9.2.1 Body
+        9.2.2 Classes
+            9.2.2.1 Common
+            9.2.2.2 Projects / Projekter
+        9.2.3 Header
+        9.2.4 Main
+            9.2.4.1 Pictures
+        9.2.5 Footer
+    9.3 Min-width__1050
+        9.3.1 Classes
+            9.3.1.1 Common
+            9.3.1.2 About / Om Mig
+        9.3.2 Header
+        9.3.3 Main
+            9.3.3.1 Pictures
+            9.3.3.2 Projekter__Websites
+    9.4 Min-width__1200
+        9.4.1 Header
+        9.4.2 Main
+            9.4.2 Pictures
+        9.4.3 Footer
+    9.5 Min-width__1680
+        9.5.1 Body
+        9.5.2 Header
+        9.5.3 Main
+            9.5.3.1 About / Om mig
+            9.5.3.2 Pictures
+        9.5.4 Footer
+    9.6 Min-width__2560
+        9.6.1 Common
+        9.6.2 Header
+        9.6.3 Footer
+>>>
+----------------------------- */
+
+    
+/* -----------------------------
+1 Resets
+----------------------------- */
+*{box-sizing: border-box;}
+html, body{margin: 0;padding: 0;}
+img, iframe, video{max-width: 100%;}
+html{scroll-behavior: smooth;}
+body{text-align: center ;}
+
+/* -----------------------------
+2 Colors
+----------------------------- */
+    /* 2.1 Common
+    ---------------------- */
+    html{color: #fff;}
+    body{background-color: #1E1E1E;}
+    h1{color: #ffffff;font-size: x-large;}
+
+        /* 2.1.1 Lightbox
+        ---------------------- */
+        .lb-container{background: rgba(0, 0, 0, 0.5);}
+        .lb-image{background-color: rgba(255, 255, 255, 0.8);border: 10px solid rgba(255, 255, 255, 0.8);}
+        .lb-close{background: #222;color: rgb(255, 255, 255);}
+    /* 2.2 Header
+    ---------------------- */
+    header{background-color: #474343;}
+    .menu{color: rgb(255, 255, 255);}
+    .current{color: rgb(65, 148, 242) !important;}
+    #link a:hover{color: rgb(65, 148, 242);transition: all 0.4s;}
+    /* 2.3 Footer
+    ---------------------- */
+    footer{background-color: #474343;}
+    .footer-info{color: rgb(200, 200, 200);}
+    #footer-link a:hover{color: rgb(65, 148, 242);transition: all 0.4s;}
+    .link{color: rgb(114, 149, 189);text-decoration: none;}
+    /* 2.5 Projects / Projekter
+    ---------------------- */
+    .overlay {background-color: rgb(3, 85, 180)}
+    .text {color: rgb(255, 255, 255);}
+
+/* -----------------------------
+3 Fonts
+----------------------------- */
+body{font-family: 'Rokkitt', serif;}
+.menu{font-family: 'Anton', sans-serif;}
+.menuC{font-family: 'Anton', sans-serif;}
+.translateWrapper{font-family: 'Anton', sans-serif;}
+.archive__item{font-family: 'Anton', sans-serif;}
+
+/* -----------------------------
+4 Quality of life
+------------------------------*/
+    /* 4.1 Anchor
+    ---------------------- */
+    a.anchor {display: block;position: relative;top: calc(-23vh+1px);visibility: hidden;}
+    a.siteAnchor {display: block;position: relative;top: calc(-23vh);visibility: hidden;}
+
+    /* 4.2 Lightbox
+    ---------------------- */
+    .lb-container{position: fixed;width: 100vw;height: 100vh;top: 0;left: 0;display: flex;align-items: center;opacity: 0;pointer-events: none;transition: all 0.5s;z-index: 6;}
+    .lb-container-active{opacity: 1;pointer-events: all;}   
+    .lb-image{margin-left: auto;margin-right: auto;position: relative;background-size: contain;background-repeat: no-repeat;background-position: center;}
+    .lb-close{position: absolute;top: 0;right: 0;border: none;padding: 5px 8px;cursor: pointer;}
+    #lightbox-items img{cursor: pointer;}
+
+    .hidden{display: none;}
+
+/* -----------------------------
+5 Classes
+------------------------------*/
+    /* 5.1 Common (universal)
+    ---------------------- */
+    .padding{padding: 40px;}
+    section{font-size: 1.3em;}
+    /* 5.2 About / Om os
+    ---------------------- */
+    .paddingOm1{padding-bottom: 5px;}
+    .paddingOm{padding-top: 5px;}
+
+    /* 5.3 Drawings / Tegninger
+    ---------------------- */
+    .pointer{cursor: pointer;} 
+
+    /* 5.4 Projects / Projekter
+    ---------------------- */
+    .tel{display: none;}
+    .pc{display: block;}
+    .videodesk{display: none;}
+    .videotel{display: block;}
+
+/* -----------------------------
+6 Header
+------------------------------*/
+header{height: 16vh;position: sticky;text-align: center;top: 0;z-index: 4;width: 100%;}
+.logo{float: none;max-width: 30vw;cursor: pointer;}
+.menu{text-transform: uppercase;text-decoration: none;font-size: 1em;letter-spacing: .08em;padding: 6px 6px;overflow: hidden;}
+#link a{cursor: pointer;}
+
+.headerContainer{display: flex;flex-wrap: wrap;}
+
+.logoWrapper{width: 60%; order: 1;}
+.linkWrapper{width: 100%; order: 3;}
+.translateWrapper{width: 40%; order: 2;padding-top: 2vh;}
+
+.translateContainer{margin-right: 4vw;}
+
+.translateBtn{cursor: pointer;background-color: #303030;border-radius: 25px ;font-size: 1.2em;}
+.translateImg{width: 20px;height: 20px;margin-top: 1vh;margin-right: .5vw;margin-left: 1vw;}
+
+.translateDropdownContainerActive{display:block !important;}
+
+.translateText{margin-right: 1vw;margin-left: .5vw;margin-top: 10px;margin-bottom: 15px;padding-top:4px;letter-spacing: .05em;display: none;} 
+
+.translateDropdownContainer{display: none;margin-left: 1.8vw;cursor:pointer;background-color: #ffffff;min-width: 120px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);width: 5vw;font-size: 1.2em;transition: .4s;}
+.translateDropdownContainer a{text-decoration: none;color: #000;min-width: 120px;}
+.translateDropdownContainer:hover{background-color: rgb(194, 194, 194);color: rgb(61, 61, 61);}
+
+
+/* -----------------------------
+7 Main
+------------------------------*/
+.index__da{background-image: url(/assets/index/index-banner-phone.png);}
+.index__eng{background-image: url(/assets/index/index-banner-phone-eng.png);}
+.index__main{height: 83vh;background-position: center;background-repeat: no-repeat;background-size: cover;}
+    /* 7.1 Om mig
+    ---------------------- */
+    .om-mig__article{font-size: 20px;}
+    .om-mig__article__udannelse{float: left;}
+
+    /* 7.2 Projekter__Websites
+    ---------------------- */
+    .container {position: relative;width: 100%;display: block;z-index:2;}
+    .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;opacity: 0.9;transition: .5s ease;;z-index: 3;}
+    .container:hover .overlay {opacity: 1;}
+    .text {font-size: 16px;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align: center;}
+    .image {display: block;width: 100%;height: auto;}
+    .telHjem{display: block;padding-top: 20px;}
+
+    /* 7.3 Pictures
+    ---------------------- */
+    .om-mig__portrait{max-width: 70%;}
+    .tegningSmall{max-width: 45%; margin: .2em;}
+    .tegningStor{max-width: 90%;}
+    iframe{max-width: 100%;}
+    .iframe{border: none;}
+    .center-wrap{justify-content: center;}
+    
+    /* 7.4 SiteHeader
+    ---------------------- */
+    .siteHeader__header{position: sticky;top: 16vh;background-color: #303030;z-index: 3}
+    .siteHeader__container{display: flex;}
+    .siteHeader__item{color: white;text-decoration: none;font-size: 1em;letter-spacing: .05em; padding: 1em;transition: .4s;}
+    .siteHeader__item:hover{color: rgb(65, 148, 242);}
+
+/* -----------------------------
+8 Footer
+------------------------------*/
+footer{text-align: center;margin-top: 0px;height: 190vh;}
+.footerTitle{padding-top: 40px;}
+.max-width-center{max-width: 95%;margin-left: auto;margin-right: auto;text-align: center;}
+.footer-infobox{padding-top: 8vh;}
+
+/* -----------------------------
+9 Media queries
+------------------------------*/
+/* 9.1 min-450
+---------------------- */
+    @media only screen and (min-width: 650px){ 
+    /* 9.1.1 Header
+    ---------------------- */
+    .menu{font-size: 1em;}
+    }
+/* 9.2 min-650
+---------------------- */
+@media only screen and (min-width: 650px){ 
+    /* 9.1.1 Header
+    ---------------------- */
+    .logo{width: 23vw;}
+    .menu{padding: 10px 10px;font-size: 1.2em;padding-top: 0.3em;}
+
+    /* 9.1.2 Main
+    ---------------------- */
+    .index__da{background-image: url(/assets/index/index-banner-pc.png);}
+    .index__eng{background-image: url(/assets/index/index-banner-pc-eng.png);}
+    .index__main{height: 86vh;}
+    .om-mig__article{font-size: 22px;}    
+}
+
+
+/* 9.2 min-850
+---------------------- */
+@media only screen and (min-width: 850px){ 
+    /* 9.2.1 Body 
+    -----------------------*/
+    h1{font-size: xx-large;}
+
+    /* 9.2.2 Classes
+    ---------------------- */
+        /* 9.2.2.1 Common (universal)
+        ---------------------- */   
+        .center{text-align: center;}
+        a.anchor {top: calc(-14vh+1px);}
+        /* 9.2.2.2 Projects / Projekter
+        ---------------------- */
+        .tel{display: block;}
+        .pc{display: none;}
+        .videodesk{display: block;text-align: center;}
+        .videotel{display: none;text-align: center;}
+
+    /* 9.2.3 Header
+    ---------------------- */
+    header{height: 14vh;}
+    .logo{width: 200px;}
+    .menu{font-size: 1.4em;}
+
+   
+
+    .logoWrapper{width: 20%; order: 1;}
+    .linkWrapper{width: 60%;align-items: center;padding-top: 5vh; order: 2;}
+    .translateWrapper{width: 20%;padding-top: 3.8vh; order: 3;}
+    
+    .translateContainer{margin-right: 4vw;}
+    .translateDropdownContainerActive{display:block !important;}
+    
+    .translateImg{width: 40px;height: 40px;margin-top: 1vh;margin-right: .5vw;margin-left: 1vw;}
+    .translateText{margin-right: 1vw;margin-left: .5vw;margin-top: 10px;margin-bottom: 15px;padding-top:4px;letter-spacing: .05em;display: block;} 
+    .translateBtn{ display: flex;background-color: #303030;border-radius: 25px ;font-size: 1.2em;}
+    
+    .translateDropdownContainer{display: none;margin-left: 1.8vw;cursor:pointer;background-color: #ffffff;min-width: 120px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);width: 5vw;font-size: 1.8em;transition: .4s;}
+    .translateDropdownContainer a{text-decoration: none;color: #000;min-width: 120px;}
+    .translateDropdownContainer:hover{background-color: rgb(194, 194, 194);color: rgb(61, 61, 61);}
+
+    /* 9.2.4 Main
+    ---------------------- */
+        main{min-height: 86vh;}
+        .siteHeader__header{position: sticky;top: 14vh;background-color: #303030;z-index: 3}
+        .siteHeader__item{color: white;text-decoration: none;font-size: 1.6em;letter-spacing: .05em; padding: 1em;transition: .4s;}
+        /* 9.2.4.1 Pictures
+        ---------------------- */    
+        .om-mig__portrait{max-width: 50%;}
+        .tegningSmall{max-width: 25%;}
+        .tegningStor{max-width: 84%;} 
+        .img-33{max-width: 32%;}
+        .img-40{max-width: 39%;}
+
+    /* 9.2.5 Footer
+    ---------------------- */
+    footer{text-align: center;margin-top: 0px;height: 86vh;}
+    .footerTitle{padding-top: 40px;}
+    .max-width-center{max-width: 95%;margin-left: auto;margin-right: auto;text-align: center;}
+}
+
+/* 9.3 min-1050
+---------------------- */
+@media only screen and (min-width: 1050px){ 
+    /* 9.3.1 Classes
+    ---------------------- */
+        /* 9.3.1.1 Common
+        ---------------------- */
+        .flex-container{display: flex;}
+        .flexWrapper{display: flex;flex-wrap: wrap;margin-left: auto;margin-right: auto;}
+        .col-33{width: 33.333%;}
+        .col-40{width: 40%;}
+        .col-50{width: 50%;}
+        .col-60{width: 60%;}
+        .col-66{width: 66.666%}
+        /* 9.3.1.2 About / Om mig
+        ---------------------- */
+        .paddingOm1{padding: 40px;}
+        .paddingOm{padding: 40px;}
+
+    /* 9.3.2 Header
+    ---------------------- */
+        .menu{padding: 10px 20px; padding-top: 5vh;}
+
+        .logoWrapper{width: 15%;}
+        .linkWrapper{width: 70%;align-items: center;padding-top: 5vh;}
+        .translateWrapper{width: 15%;padding-top: 3.8vh}
+        
+        .translateContainer{margin-right: 4vw;}
+        .translateDropdownContainerActive{display:block !important;}
+        
+        .translateImg{width: 40px;height: 40px;margin-top: 1vh;margin-right: .5vw;margin-left: 1vw;}
+        .translateText{margin-right: 1vw;margin-left: .5vw;margin-top: 10px;margin-bottom: 15px;padding-top:4px;letter-spacing: .05em;} 
+        .translateBtn{ display: flex;background-color: #303030;border-radius: 25px ;font-size: 1.2em;}
+        
+        .translateDropdownContainer{display: none;margin-left: 1.8vw;cursor:pointer;background-color: #ffffff;min-width: 120px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);width: 5vw;font-size: 1.8em;transition: .4s;}
+        .translateDropdownContainer a{text-decoration: none;color: #000;min-width: 120px;}
+        .translateDropdownContainer:hover{background-color: rgb(194, 194, 194);color: rgb(61, 61, 61);}
+
+
+    /* 9.3.3 Main
+    ---------------------- */
+
+        /* 9.3.3.1 Pictures
+        ---------------------- */
+        .om-mig__portrait{max-width: 70%;}
+        .tegningSmall{max-width: 11%;}
+        .tegningStor{max-width: 33%;}
+        
+        /* 9.3.3.2 Projekter__Websites
+        ---------------------- */
+        .title1{font-size: 40px;}
+        .container {width: 33.33%;}
+        .overlay {opacity: 0;}
+        .telHjem {display: none;}
+}
+/* 9.4 min-1200
+---------------------- */
+@media only screen and (min-width: 1200px){ 
+    /* a.anchor {top: calc(-12vh+1px);} */
+    /* 9.4.1 Header
+    ---------------------- */
+    /* header{height: 12vh;} */
+    .menu{font-size: 2em;padding-top: 3.5vh;}
+    .logo{width: 200px;}
+    
+    /* 9.4.2 Main
+    ---------------------- */
+        /* 9.4.2.1 Pictures
+        ---------------------- */
+        .om-mig__portrait{max-width: 63%;}
+
+    /* 9.4.3 Footer
+    ---------------------- */
+    footer{height: 86.5vh;}
+    .footerBox{padding-top: 100px;}
+}
+
+/* 9.5 min-1480
+---------------------- */
+@media only screen and (min-width: 1400px){
+    /* 9.5.1 Body
+    ---------------------- */
+    .text {font-size: 21px;}
+
+    /* 9.5.2 Header
+    ---------------------- */
+    .menu{padding: 30px 30px;padding-top: 4.5vh;font-size: 2em;}
+    .logo{width: 205px;}
+    /* 9.5.3 Main
+    ---------------------- */
+    .index__main{height: 88vh;}
+        /* 9.5.3.1 About / Om mig
+        ---------------------- */
+        .om-mig__article{font-size: 21px;}
+        /* .om-mig__margin{margin-right: auto;margin-left: auto;max-width: 80vw;} */
+
+        /* 9.5.3.2 Pictures
+        ---------------------- */
+        .tegningSmall{max-width: 15%;}
+        .tegningStor{max-width: 33%;}
+    
+    /* 9.5.4 Footer
+    ---------------------- */
+    .footerContainer{padding-top: 10vh;}
+    .footerTitle{font-size: 28px; padding-top: 50px;margin: 0%;}
+    .footerText{font-size: 22px;}
+    .footerPadding{padding: 15px;}
+}
+
+/* 9.6 min-2560
+---------------------- */
+@media only screen and (min-width: 2050px){
+    /* 9.6.2 Header
+    ---------------------- */
+    .menu{font-size: 3em;}
+    .logo{width: 305px;}
+    .linkWrapper{padding-top: 4.5vh;}
+    .translateWrapper{padding-top: 4.5vh}
+    .translateBtn{font-size: 1.6em;}
+    /* 9.6.3 Main 
+    ---------------------- */
+    main{min-height: 86vh;}
+    /* 9.6.4 Footer 
+    ---------------------- */
+    .footerContainer{padding-top: 15vh;}
+    .footerTitle{font-size: 36px;}
+    .footerText{font-size: 24px;}
+
+}

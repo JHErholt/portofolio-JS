@@ -1,0 +1,61 @@
+{
+    "footer": [
+        
+        {
+            "titleDa": "Mail",
+            "titleEng": "Mail",
+            "fontAwesomeIcon": "fas fa-envelope-square",
+            "textDa": "Hvis du har nogle spørgsmål, eller vil komme i kontakt.",
+            "textEng": "If you have any questions, or want to get in contact.",
+            "url": "mailto:jacob@erholt.dk",
+            "urlText": "jacob@erholt.dk"
+            
+        },
+        {
+            "titleDa": "Telefon",
+            "titleEng": "Phone",
+            "fontAwesomeIcon": "fas fa-phone-square",
+            "textDa": "For hurtigere kontakt, kan du ringe.",
+            "textEng": "For a quicker way to contact me.",
+            "url": "noUrl",
+            "number": "30319685"
+            
+        },
+        {
+            "titleDa": "LinkedIn",
+            "titleEng": "LinkedIn",
+            "fontAwesomeIcon": "fab fa-linkedin",
+            "textDa": "Hvis du har nogle spørgsmål, eller vil komme i kontakt.",
+            "textEng": "If you have any questions, or want to get in contact.",
+            "url": "http://linkedin.com/in/jacob-erholt-b33b74193",
+            "urlText": "LinkedIn"
+        },
+        {
+            "titleDa": "Facebook",
+            "titleEng": "Facebook",
+            "fontAwesomeIcon": "fab fa-facebook-square",
+            "textDa": "Min facebook.",
+            "textEng": "My facebook.",
+            "url": "https://www.facebook.com/profile.php?id=100009581239174",
+            "urlText": "Facebook"
+        },
+        {
+            "titleDa": "Youtube",
+            "titleEng": "Youtube",
+            "fontAwesomeIcon": "fab fa-youtube-square",    
+            "textDa": "Jeg har lavet en youtube kanal for at vise mine projekter.",
+            "textEng": "I have created a youtube channel so i can show my achivements.",
+            "url": "https://www.youtube.com/channel/UCFmKt6u9UHF-oQO0mfpj_Tw/featured",
+            "urlText": "Youtube"
+            
+        }
+    ]
+}
+
+
+
+
+
+
+
+
