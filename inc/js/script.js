@@ -164,7 +164,7 @@ aboutLink.addEventListener('click', () => {
             document.getElementById('main').appendChild(mainWrapper)
             // Using the right language
             if (document.getElementById('language').classList.contains('danish')) {
-                p_1_about.innerHTML = 'Jeg hedder Jacob Hedengran Erholt, jeg er 18 år og bor i Frederikssund.'
+                p_1_about.innerHTML = 'Jeg hedder Jacob Hedengran Erholt, jeg er 19 år og bor i Frederikssund.'
                 p_2_about.innerHTML = 'For tiden går jeg i skolepraktik, som Digital Media elev. <br> Jeg har arbejdet med HTML, CSS, JS og PHP. Jeg har også kendskab til Illustrator, Photoshop, Wix og Wordpress, og Office pakken.'
                 p_3_about.innerHTML = 'I min fritid tilbringer jeg mange timer foran computeren, hvor jeg laver kreative sager, såsom hjemmesider og projekter i forskellige spil. Jeg spiller computerspil, da jeg godt kan lide følelsen af virkelig at skulle kæmpe for noget, eller bygge noget op, den tilfredsstillelse er fantastisk. < br > '
                 p_4_about.innerHTML = 'Jeg kan godt lide at lave hjemmesider, da jeg elsker at man kan se det endelige resultat (som altid kan forbedres!), hvor det virker og andre kan benytte sig af det. Jeg synes det er virkelig fedt, hvordan man kan lege med de forskellige egenskaber i html, css og javascript, så man kan få sin hjemmeside til at have alle mulige funktioner. <br><br> Jeg finder det interessant, hvordan man selv kan se fra start til slut, hvordan hjemmesiden bliver bedre og mere funktionelt, samt pænere sat op.'
