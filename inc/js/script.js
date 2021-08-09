@@ -170,7 +170,7 @@ aboutLink.addEventListener('click', () => {
                 p_4_about.innerHTML = 'Jeg kan godt lide at lave hjemmesider, da jeg elsker at man kan se det endelige resultat (som altid kan forbedres!), hvor det virker og andre kan benytte sig af det. Jeg synes det er virkelig fedt, hvordan man kan lege med de forskellige egenskaber i html, css og javascript, så man kan få sin hjemmeside til at have alle mulige funktioner. <br><br> Jeg finder det interessant, hvordan man selv kan se fra start til slut, hvordan hjemmesiden bliver bedre og mere funktionelt, samt pænere sat op.'
                 p_5_about.innerHTML = '<h2>Uddannelse</h2> ∎ 2021 - Hovedeforløb 1 på RTS i Digital Media <br><br> ∎ 2020 - Praktik hos Layback <br><br> ∎ 2020 - Grundforløb 2 på RTS i Digital Media <br><br> ∎ 2019 - Grundforløb 1 på RTS i Digital Design <br><br> ∎ 2019 - 10. klasses afgangseksamen <br><br> ∎ 2018 - 9. klasses afgangseksamen'
             } else {
-                p_1_about.innerHTML = 'My Containera Hedengran Erholt, I am 18 years old and is living in Frederikssund, Denmark.'
+                p_1_about.innerHTML = 'My Containera Hedengran Erholt, I am 19 years old and is living in Frederikssund, Denmark.'
                 p_2_about.innerHTML = 'Currently i am in school practice, as a Digital Media student. <br> I have worked with HTML, CSS, JS and PHP. I also know a bit about Illustrator, Photoshop, Wix, Wordpress and the Office pack.'
                 p_3_about.innerHTML = 'In my spare time I spend many hours in front of my computer, where I make creative projects, such as websites or illustrations. I like to play computer games, since I like the feeling of really having to fight for something or build something cool up, the satisfaction is amazing.'
                 p_4_about.innerHTML = 'I like to create website, as I love that you can see the final result (whioch always can be improved!), which is working, and others can see and interact with it. I think it is amazing how you are able to "play" with the different features in HTML, CSS and javascript, so you can get your website to have all possible functions <br><br> I find it interessting, how you can see the website from start to finish, getting better, more functional, as well as nicer set up.'
@@ -432,7 +432,7 @@ translateDropdownContainer.addEventListener('click', () => {
             if (document.getElementById('site').classList.contains('about')) {
                 console.log('ABOUT')
                 // Translateing the page
-                p_1_about.innerHTML = 'Jeg hedder Jacob Hedengran Erholt, jeg er 18 år og bor i Frederikssund.'
+                p_1_about.innerHTML = 'Jeg hedder Jacob Hedengran Erholt, jeg er 19 år og bor i Frederikssund.'
                 p_2_about.innerHTML = 'For tiden går jeg i skolepraktik, som Digital Media elev. <br> Jeg har arbejdet med HTML, CSS, JS og PHP. Jeg har også kendskab til Illustrator, Photoshop, Wix og Wordpress, og Office pakken.'
                 p_3_about.innerHTML = 'I min fritid tilbringer jeg mange timer foran computeren, hvor jeg laver kreative sager, såsom hjemmesider og projekter i forskellige spil. Jeg spiller computerspil, da jeg godt kan lide følelsen af virkelig at skulle kæmpe for noget, eller bygge noget op, den tilfredsstillelse er fantastisk. < br > '
                 p_4_about.innerHTML = 'Jeg kan godt lide at lave hjemmesider, da jeg elsker at man kan se det endelige resultat (som altid kan forbedres!), hvor det virker og andre kan benytte sig af det. Jeg synes det er virkelig fedt, hvordan man kan lege med de forskellige egenskaber i html, css og javascript, så man kan få sin hjemmeside til at have alle mulige funktioner. <br><br> Jeg finder det interessant, hvordan man selv kan se fra start til slut, hvordan hjemmesiden bliver bedre og mere funktionelt, samt pænere sat op.'
@@ -505,7 +505,7 @@ translateDropdownContainer.addEventListener('click', () => {
             if (document.getElementById('site').classList.contains('about')) {
                 console.log('ABOUT')
                 // Translateing the page
-                p_1_about.innerHTML = 'My name is Jacob Hedengran Erholt, I am 18 years old and is living in Frederikssund, Denmark.'
+                p_1_about.innerHTML = 'My name is Jacob Hedengran Erholt, I am 19 years old and is living in Frederikssund, Denmark.'
                 p_2_about.innerHTML = 'Currently i am in school practice, as a Digital Media student. <br> I have worked with HTML, CSS, JS and PHP. I also know a bit about Illustrator, Photoshop, Wix, Wordpress and the Office pack.'
                 p_3_about.innerHTML = 'In my spare time I spend many hours in front of my computer, where I make creative projects, such as websites or illustrations. I like to play computer games, since I like the feeling of really having to fight for something or build something cool up, the satisfaction is amazing.'
                 p_4_about.innerHTML = 'I like to create website, as I love that you can see the final result (whioch always can be improved!), which is working, and others can see and interact with it. I think it is amazing how you are able to "play" with the different features in HTML, CSS and javascript, so you can get your website to have all possible functions <br><br> I find it interessting, how you can see the website from start to finish, getting better, more functional, as well as nicer set up.'
@@ -620,7 +620,7 @@ aboutArticle_2.className = 'om-mig__article'
 
 var p_1_about = document.createElement('p')
 
-p_1_about.innerHTML = 'Jeg hedder Jacob Hedengran Erholt, jeg er 18 år og bor i Frederikssund.'
+p_1_about.innerHTML = 'Jeg hedder Jacob Hedengran Erholt, jeg er 19 år og bor i Frederikssund.'
 var p_2_about = document.createElement('p')
 p_2_about.innerHTML = 'For tiden går jeg i skolepraktik, som Digital Media elev. <br> Jeg har arbejdet med HTML, CSS, JS og PHP. Jeg har også kendskab til Illustrator, Photoshop, Wix og Wordpress, og Office pakken.'
 var p_3_about = document.createElement('p')
