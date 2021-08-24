@@ -8,7 +8,7 @@
             "opensDa": "Åbnes i ny fane",
             "opensEng": "Opens in new tab",
             "url": "https://bylivslab-jerholt.netlify.app/",
-            "img": "/assets/websites/bylivslabs.jpg"
+            "img": "assets/websites/bylivslabs.jpg"
         },
         {
             "title": "CAFE EMIL",
@@ -17,7 +17,7 @@
             "opensDa": "Åbnes i ny fane",
             "opensEng": "Opens in new tab",
             "url": "https://cafeemil-jerholt.netlify.app/",
-            "img": "/assets/websites/cafe-A-burger-3.jpg"
+            "img": "assets/websites/cafe-A-burger-3.jpg"
         }
     ]
 }

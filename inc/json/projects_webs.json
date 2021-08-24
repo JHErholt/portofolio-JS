@@ -8,7 +8,7 @@
             "textEng": "I have created a website, where you can see lots of pictures I've taken on walks, I've used HTML and CSS.",
             "opensEng": "Opens in new tab",
             "url": "https://jerholt-imagery-scenery.netlify.app/",
-            "img": "/assets/websites/scenery.jpg"
+            "img": "assets/websites/scenery.jpg"
         },
         
         {
@@ -18,7 +18,7 @@
             "textEng": "I have created a website, where you can see search after wikipedia sites, I've used help from an API to do so, I've used HTML, CSS and JS.",
             "opensEng": "Opens in new tab",
             "url": "https://erholt-search.netlify.app/",
-            "img": "/assets/websites/ErholtSearch.jpg"
+            "img": "assets/websites/ErholtSearch.jpg"
         },
 
         {
@@ -28,7 +28,7 @@
             "textEng": "I have created a website, where you can see how long there is till christmas, using HTML, CSS og JS",
             "opensEng": "Opens in new tab",
             "url": "https://christmas-erholt.netlify.app/",
-            "img": "/assets/websites/juleside.jpg"
+            "img": "assets/websites/juleside.jpg"
         },
         
         
@@ -39,7 +39,7 @@
             "textEng": "I have created a website as my exam in basic course 2 using HTML, CSS and 3D models.",
             "opensEng": "Opens in new tab",
             "url": "https://b0bles-jerholt.netlify.app/",
-            "img": "/assets/websites/b0bbles.jpg"
+            "img": "assets/websites/b0bbles.jpg"
         },
         
         {
@@ -49,7 +49,7 @@
             "textEng": "I have made a webshop, as a school project, while I was in basic course 2, using HTML and CSS.",
             "opensEng": "Opens in new tab",
             "url": "https://trio-kajace.netlify.app/",
-            "img": "/assets/websites/triangle.jpg"
+            "img": "assets/websites/triangle.jpg"
         },
         
         {
@@ -59,7 +59,7 @@
             "textEng": "I have created a website, so i could show some of my favourite games, using HTML, CSS and JS.",
             "opensEng": "Opens in new tab",
             "url": "https://gamelab-jerholt.netlify.com",
-            "img": "/assets/websites/gaamelab.jpg"
+            "img": "assets/websites/gaamelab.jpg"
         },
         
         {
@@ -69,7 +69,7 @@
             "textEng": "I have created a website as a form of showing my procces in my lego project, using HTML and CSS.",
             "opensEng": "Opens in new tab",
             "url": "https://lego-opsamling-jerholt.netlify.app/",
-            "img": "/assets/websites/legoopsams.jpg"
+            "img": "assets/websites/legoopsams.jpg"
         },
         
         {
@@ -79,7 +79,7 @@
             "textEng": "I had to make a website as a school project, I used HTML, CSS and JS.",
             "opensEng": "Opens in new tab",
             "url": "https://greengarden-jerholt.netlify.app/",
-            "img": "/assets/websites/greengards.jpg"
+            "img": "assets/websites/greengards.jpg"
         },
         
         {
@@ -89,7 +89,7 @@
             "textEng": "I have created a website about som selected animals, as a school project, using HTML, CSS and JS.",
             "opensEng": "Opens in new tab",
             "url": "https://dyr-info-jerholt.netlify.com",
-            "img": "/assets/websites/Projektdyr.jpg"
+            "img": "assets/websites/Projektdyr.jpg"
         }
         
     ]

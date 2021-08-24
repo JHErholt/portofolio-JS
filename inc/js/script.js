@@ -1,15 +1,20 @@
 // Fetching json files
-const pro_web_json = '/inc/json/projects_webs.json'
+const pro_web_json = 'inc/json/projects_webs.json'
 const projectWebsitesJson = fetch(pro_web_json)
-const pro_ill_json = '/inc/json/projects_illu.json'
+
+const pro_ill_json = 'inc/json/projects_illu.json'
 const projectIllustrationsJson = fetch(pro_ill_json)
-const pro_fil_json = '/inc/json/projects_film.json'
+
+const pro_fil_json = 'inc/json/projects_film.json'
 const projectFilmJson = fetch(pro_fil_json)
-const arc_web_json = '/inc/json/archives_webs.json'
+
+const arc_web_json = 'inc/json/archives_webs.json'
 const archivesWebsitesJson = fetch(arc_web_json)
-const arc_ill_json = '/inc/json/archives_illu.json'
+
+const arc_ill_json = 'inc/json/archives_illu.json'
 const archivesIllustrationsJson = fetch(arc_ill_json)
-const footerJson = '/inc/json/footer.json'
+
+const footerJson = 'inc/json/footer.json'
 const footerJsonFetch = fetch(footerJson)
 
 // Lightbox
@@ -83,7 +88,7 @@ logoLink.addEventListener('click', () => {
 })
 var logoImg = document.createElement('img');
 logoImg.className = 'logo';
-logoImg.src = '/assets/logo.png';
+logoImg.src = 'assets/logo.png';
 logoImg.alt = 'logo';
 
 logoLink.appendChild(logoImg);
@@ -392,7 +397,7 @@ var translateBtn = document.createElement('div')
 translateBtn.className = 'translateBtn'
 
 var translateImg = document.createElement('img')
-translateImg.src = '/assets/index/langWhite.png'
+translateImg.src = 'assets/index/langWhite.png'
 translateImg.className = 'translateImg'
 
 var translateText = document.createElement('a')

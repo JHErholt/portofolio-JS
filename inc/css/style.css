@@ -212,8 +212,8 @@ header{height: 16vh;position: sticky;text-align: center;top: 0;z-index: 4;width:
 /* -----------------------------
 7 Main
 ------------------------------*/
-.index__da{background-image: url(/assets/index/index-banner-phone.png);}
-.index__eng{background-image: url(/assets/index/index-banner-phone-eng.png);}
+.index__da{background-image: url(../../assets/index/index-banner-phone.png);}
+.index__eng{background-image: url(../../assets/index/index-banner-phone-eng.png);}
 .index__main{height: 83vh;background-position: center;background-repeat: no-repeat;background-size: cover;}
     /* 7.1 Om mig
     ---------------------- */
@@ -273,8 +273,8 @@ footer{text-align: center;margin-top: 0px;height: 190vh;}
 
     /* 9.1.2 Main
     ---------------------- */
-    .index__da{background-image: url(/assets/index/index-banner-pc.png);}
-    .index__eng{background-image: url(/assets/index/index-banner-pc-eng.png);}
+    .index__da{background-image: url(../../assets/index/index-banner-pc.png);}
+    .index__eng{background-image: url(../../assets/index/index-banner-pc-eng.png);}
     .index__main{height: 86vh;}
     .om-mig__article{font-size: 22px;}    
 }
